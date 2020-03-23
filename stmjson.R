@@ -1,9 +1,9 @@
-###
+# ##
 #
 # This is all code modified/extended from the stmCorrViz package (https://github.com/cran/stmCorrViz/tree/master/R).
 # Thank you Antonio Coppola, Margaret Roberts, Brandon Stewart, and Dustin Tingley.
 #
-###
+# ##
 
 # requires questions, question_names
 find_cluster_docs <- function(topic_nums, raw_docs, question_num, min_total_prev = 0.3) {
